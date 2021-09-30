@@ -1,0 +1,17 @@
+{
+    "locale": "fr",
+    "txt_noEvents": "Aucun événement pour cette période",
+    "txt_SpecificEvents_prev": "Événement de ",
+    "txt_SpecificEvents_after": ":",
+    "txt_next": "Suivant",
+    "txt_prev": "Précédent",
+    "txt_NextEvents": "Prochains événements :",
+    "txt_GoToEventUrl": "Voir l'événement",
+    "txt_loading": "Chargement...",
+    "moment": {
+        "months" : [ "Janvier", "Février", "Mars", "Avril", "Mai", "Juin",
+                "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre" ],
+        "weekdaysShort" : [ "Dim","Lun","Mar","Mer",
+                "Jeu","Ven","Sam" ]
+    }
+}

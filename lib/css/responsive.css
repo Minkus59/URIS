@@ -1,0 +1,742 @@
+/* CSS Document */
+
+body {
+font-family: 'Roboto Condensed', sans-serif;
+-moz-font-family: 'Roboto Condensed', sans-serif;
+-webkit-font-family: 'Roboto Condensed', sans-serif;
+-khtml-font-family: 'Roboto Condensed', sans-serif;
+-o-font-family: 'Roboto Condensed', sans-serif;
+
+scrollbar-face-color: #111111;
+scrollbar-shadow-color: #ced6e1;
+scrollbar-highlight-color: #ced6e1;
+scrollbar-3dlight-color: #ced6e1;  
+scrollbar-darkshadow-color: #ced6e1;  
+scrollbar-track-color: #111111;
+scrollbar-arrow-color: #ced6e1;
+
+margin: 0px;
+padding: 0px;
+}
+
+#Information {
+float: left;
+min-width: 90%;
+min-height: 20px;
+color: #ff6600;
+text-align: justify;
+padding: 10px;
+margin: 10px;
+background-color: rgba(250, 250, 250, 1);
+-webkit-box-shadow: 0px 10px 15px -10px #111;
+-o-box-shadow: 0px 10px 15px -10px #111;
+box-shadow: 0px 10px 15px -10px #111;
+}
+
+/*---------Class -------------------------------------------------*/
+
+h1 {
+background-image: url('/lib/img/carre.png');
+background-repeat: no-repeat;
+background-position: left center;
+color: #bc031b;
+text-transform: uppercase;
+padding-left: 30px;
+margin: 5px;
+}
+
+h2 {
+color: #666666;
+}
+
+/*---------Global -------------------------------------------------*/
+
+#cookie {
+position: fixed;
+bottom: 0px;
+width: 100%; 
+background-color: #333;
+opacity: 0.8;
+text-align: center;
+z-index: 1;
+color: #fff;
+}
+
+#cookie a {
+text-decoration: none;
+color: #fff;
+}
+
+#Center {
+width: 100%;
+min-width: 320px;
+}
+
+header, section, footer {
+width: 100%;
+min-width: 320px;
+}
+
+/*--------- Conteneur Principal -------------------------------------------------*/
+
+header {
+border-bottom: 4px solid #bc031b; 
+background-color: #1e5299;
+overflow: auto;
+}
+
+section {
+min-height: 600px;
+background-color: #ced6e1;
+position: relative;
+z-index: 120;
+overflow: hidden;
+}
+
+footer {
+position: relative;
+z-index: 90;
+border-top: 4px solid #bc031b;
+color: #FFFFFF;
+background-color: #141516;
+}
+
+/*--------- Header -------------------------------------------------*/
+
+#Logo {
+position: relative;
+z-index: 90;
+float: left;
+margin: 10px;
+}
+
+#Region {
+    display: none;
+    }
+
+#sousLogo {
+position: absolute;
+height: 158px;
+width: 100%;
+min-width: 320px;
+z-index: 60;
+background-image: url('/lib/img/Head2.png');
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+/*--------------------------------------------------------*/
+/*---FlashInfo-----------------------------------------------*/
+
+.FlashInfo {
+width: 100%;
+float: left;
+min-height: 60px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#Info {
+padding: 5px;
+border-bottom: 1px solid #999;
+margin-bottom: 4px;
+position: relative;
+z-index: 150;
+}
+
+/*--------------------------------------------------------*/
+/*---Carouselle-----------------------------------------------*/
+
+#Carouselle {
+position: relative;
+width: 100%;
+z-index: 30;
+top: 45px;
+overflow: hidden;
+list-style-type: none;
+}
+
+#Carouselle img {
+width: 100%;
+}
+  
+/* Basic slider */
+
+.basic-slider-container {  
+position: relative;
+}
+
+/* navigation */
+
+.basic-slider-previous,
+.basic-slider-next {
+width: 34px;
+height: 38px;
+margin-top: -10px;
+position: absolute;
+top: 50%;
+left: 0;
+z-index: 5;
+font-size: 26px;
+line-height: 42px;
+text-align: right;
+color: white;
+border-radius: 0 3px 3px 0;
+font-weight: bold;
+}
+
+.basic-slider-next {  
+left: auto;
+right: 0;
+text-align: left;
+border-radius: 3px 0 0 3px;  
+}
+
+.basic-slider-container:hover .basic-slider-previous,
+.basic-slider-container:hover .basic-slider-next {  
+display: block;
+}
+
+.basic-slider-previous.gabs-active,
+.basic-slider-next.gabs-active {
+color: #bc031b;  
+}
+
+/* the slides */
+
+.basic-slider li {
+overflow: hidden; 
+}
+
+.basic-slider {
+margin: 0px;      
+}
+
+.basic-slider-item {
+display: table;
+width: 100%;         
+}
+
+/* indicators */
+
+.basic-slider-indicators {
+text-align: center;   
+position: relative;
+bottom: 40px;
+}
+
+.basic-slider-item {
+display: table-cell;
+height: 100px;
+/*padding: 20px 40px; */
+vertical-align: middle;
+text-align: center;
+color: white;       
+}
+
+.basic-slider-indicators .gabs-indicator {
+width: 24px;
+height: 24px;
+display: inline-block;
+margin: 0 1px;
+font-size: 40px;
+line-height: 24px;
+text-align: center;
+color: #1e5299;      
+}
+
+.basic-slider-indicators .gabs-indicator:hover {
+color: #FFFFFF;     
+}
+
+.basic-slider-indicators .gabs-active {
+color: #bc031b;         
+}
+
+/*---------Section -------------------------------------------------*/
+
+nav {
+float: left;
+width: 100%;
+text-transform: uppercase;
+background-color: #141516;
+color: #fff;
+font-size: 12px;
+overflow: hidden;
+}
+
+aside {
+float: left;
+width: 100%;
+background-color: #ced6e1;
+text-align: left;
+margin-top: 10px;
+}
+
+#Content {
+float: left;
+width: 100%;
+}
+
+/*---------Menu -------------------------------------------------*/
+
+nav input[type="checkbox"].NavButton {
+display: none;
+}
+
+nav label.LabelNavButton {
+position: absolute;
+top: 10px; 
+left: 10px; 
+width: 40px; 
+height: 40px;
+background-image: url('/lib/img/menu.png');
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+nav input[type="checkbox"].NavMenu {
+display: none;
+}
+
+nav label.LabelNavMenu {
+position: absolute;
+left:0; 
+width: 20px; 
+height: 20px;
+background-image: url('/lib/img/plus.png');
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+nav .sub > li {
+display: none;
+}
+
+nav .niveau2 > li {
+display: none;
+}
+
+nav .niveau3 > li {
+display: none;
+}
+
+nav input:checked + .sub > li {
+display: block;
+}
+
+nav li input:checked + .niveau2 > li {
+display: block;
+}
+
+nav li ul li input:checked + .niveau3 > li {
+display: block;
+}
+
+nav ul li.Up {
+background-color: #bc031b;
+}
+
+nav ul {
+padding: 0px;
+text-align: left;
+}
+
+nav ul ul {
+padding: 0px;
+margin: 0px;
+width: 100%;
+top: 0px;
+}
+
+nav li {
+margin: 0px; 
+width: 100%;
+padding: 5px 0px 5px 30px; 
+list-style-type: none; 
+position: relative; 
+}
+
+nav li:hover {
+background-color: #bc031b;
+}
+
+nav ul li  {
+background-color: #141516;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+}
+
+/*--------------------------------------------------------*/
+
+#NavSearch {
+padding: 10px 0px 10px 0px;
+width: 100%;
+}
+
+#NavImage {
+padding: 40px 0px 10px 0px;
+width: 100%;
+float: left;
+}
+
+/*--------------------------------------------------------*/
+/*---Input -----------------------------------------------*/
+
+input.TextSearch {
+width: 130px;
+height: 15px;
+border : 5px solid #bc031b;
+text-align: left;
+padding: 5px;
+background-color: rgba(250, 250, 250, 1);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-o-border-radius: 5px;
+}
+
+input[type="submit"].ButtonSearch {
+width: 50px;
+height: 50px;
+background-image: url('/lib/img/loupe.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-color: #fff;
+-moz-border-radius: 10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+-o-border-radius: 10px;
+margin-left: -10px;
+vertical-align: middle;
+}
+
+/*---------Article -------------------------------------------------*/
+
+article {
+min-height: 200px;
+min-width: 300px;
+color: #121317;
+text-align: justify;
+padding: 10px;
+background-color: rgba(250, 250, 250, 1);
+-webkit-box-shadow: 0px 10px 15px -10px #111;
+-o-box-shadow: 0px 10px 15px -10px #111;
+box-shadow: 0px 10px 15px -10px #111;
+margin-top: 10px;
+}
+
+article a {
+text-decoration: none;
+color: #023480; 
+}
+
+article a:hover {
+text-decoration: none;
+color: #439080; 
+}
+
+/*---------FOOTER -------------------------------------------------*/       
+
+#Separation {
+width: 100%;
+min-width: 320px;
+position: relative;
+z-index: 150;
+height: 56px;
+background-color: #ced6e1;
+overflow: hidden;
+top: 4px;
+}
+
+footer ul {
+padding: 0px 0px 0px 35px;
+list-style-type: none;
+}
+
+#Cadre1 {
+display: inline-block;
+width: 220px;
+min-height: 80px;
+list-style-type: none;
+margin: 20px 0px 0px 0px;
+text-align: left;
+vertical-align: top;    
+}
+
+#Cadre2 {
+display: inline-block;
+width: 240px;
+min-height: 80px;
+list-style-type: none;
+margin: 20px 0px 0px 0px;
+text-align: left;
+vertical-align: top;
+}
+
+#Cadre3 {
+display: inline-block;
+width: 360px;
+min-height: 80px;
+list-style-type: none;
+margin: 20px 0px 0px 0px;
+text-align: left;
+vertical-align: top;
+border-left: 2px solid #bc031b;     
+}
+
+#Cadre4 {
+display: inline-block;
+width: 360px;
+min-height: 80px;
+list-style-type: none;
+text-align: left;
+vertical-align: top;
+border-left: 2px solid #bc031b;   
+}
+
+#Cadre2 a {
+text-decoration: none;
+color: #FFFFFF; 
+}
+
+#Cadre2 a:hover {
+text-decoration: none;
+color: #bc031b; 
+}
+
+#Cadre3 a {
+text-decoration: none;
+color: #FFFFFF; 
+}
+
+#Cadre3 a:hover {
+text-decoration: none;
+color: #bc031b; 
+}
+
+#Cadre4 a {
+text-decoration: none;
+color: #FFFFFF; 
+}
+
+#Cadre4 a:hover {
+text-decoration: none;
+color: #bc031b; 
+}
+
+#Cadre li {
+margin-left: 10px;
+padding-left: 10px;
+padding-right: 20px;  
+}
+
+#Cadre li:hover {
+margin-left: 10px;
+padding-left: 10px;
+padding-right: 20px;
+}
+
+footer h3 { 
+text-transform: uppercase;
+font-size: 18px;
+color: #bc031b;
+margin: 0px;
+padding-left: 20px;
+margin-left: 0px;
+}
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+/*----Tableau   ------------------------------------------------------*/
+
+table {
+max-width: 600px;
+border-spacing: 0px;
+}
+
+td {
+float: left;
+}
+
+/*---Formulaire-----------------------------------------------*/
+
+.col_1 {
+display: inline-block;
+padding: 3px 0px;
+width: 180px;
+min-height: 1px;
+text-align: right;
+vertical-align: top;
+}
+
+#Form_Inscription {
+text-align: left;
+float: left;
+width: 580px;
+}
+
+#Form_Cnx {
+text-align: left;
+float: left;
+width: 580px;
+}
+
+input [type="text"] {
+width: 200px;
+height: 20px;
+border : 1px solid #bc031b;
+text-align: left;
+padding: 5px;
+margin: 1px;
+}
+
+input [type="email"] {
+width: 200px;
+height: 20px;
+border : 1px solid #bc031b;
+text-align: left;
+padding: 5px;
+margin: 1px;
+}
+
+input [type="password"] {
+width: 200px;
+height: 20px;
+border : 1px solid #bc031b;
+text-align: left;
+padding: 5px;
+margin: 1px;
+}
+
+textarea {
+border : 1px solid #bc031b;
+text-align: left;
+padding: 5px;
+margin: 1px;
+}
+
+select.SelectMini {
+width: 67px;
+height: 34px;
+}
+
+select {
+width: 212px;
+height: 34px;
+border : 1px solid #bc031b;
+text-align: left;
+padding: 5px;
+margin: 1px;
+}
+
+.long {
+width: 500px;
+}
+
+input.Module {
+width: 282px;
+background-color: #bc031b;
+border: 1px solid #111;
+}
+
+input.Module:hover {
+background-color: #1e5299;
+}
+
+select.Module {
+width: 295px;
+height: 32px;
+padding: 0px 0px 0px 10px;
+background-color: #bc031b;
+border: 1px solid #111;
+}
+
+select.Module:active {
+background-color: #1e5299;
+}
+
+select.ModuleMini2 {
+width: 188px;
+height: 32px;
+padding: 0px 0px 0px 10px;
+}
+
+select.ModuleMini3 {
+width: 124px;
+height: 32px;
+padding: 0px 0px 0px 10px;
+}
+
+/*---Bouton-----------------------------------------------*/
+
+input[type="submit"] {
+font-family: Times new roman;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+width: 210px;
+height: 35px;
+color: #000;
+background-color: #1e5299;
+border-left:none;
+border-right:none;
+border: 1px solid #111;
+}
+
+input[type="submit"].cookie {
+    font-family: Times new roman;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    color: #000;
+    background-color: #1e5299;
+    border-left:none;
+    border-right:none;
+    border: 1px solid #111;
+    }
+
+input[type="file"] {
+font-family: Times new roman;
+font-size: 18px;
+text-align: center;
+color: #000;
+width: 300px;
+height: 25px;
+background-color: #bc031b;
+border: 1px solid #111;
+}
+
+#Cadres2 {
+margin-bottom: 10px;
+padding: 10px;
+display: inline-block;
+width: 550px;
+background-color: #fff;
+border: 1px solid #1e5299;
+}
+
+#Cadres3 {
+margin-bottom: 10px;
+padding: 10px;
+display: inline-block;
+width: 360px;
+background-color: #fff;
+border: 1px solid #1e5299;
+}
+
+#Cadres4 {
+margin-bottom: 10px;
+padding: 10px;
+display: inline-block;
+width: 260px;
+background-color: #fff;
+border: 1px solid #1e5299;
+}

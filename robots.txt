@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://hautsdefrance.iesf.fr/sitemap.xml

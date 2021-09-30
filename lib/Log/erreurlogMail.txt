@@ -1,0 +1,5 @@
+90.103.95.95 ; L'e-mail n'a pu être envoyé, vérifiez que vous l'avez entré correctement ! Email =  ; 05-07-19 / 12:36:28
+176.147.27.98 ; L'e-mail n'a pu être envoyé, vérifiez que vous l'avez entré correctement ! Email =  ; 07-07-19 / 7:21:54
+85.168.13.81 ; L'e-mail n'a pu être envoyé, vérifiez que vous l'avez entré correctement ! Email = coulon.jm@numericable.fr ; 15-07-19 / 10:28:23
+85.168.13.81 ; L'e-mail n'a pu être envoyé, vérifiez que vous l'avez entré correctement ! Email = jean-marie.coulon@gadz.org ; 15-07-19 / 10:28:24
+176.147.27.98 ; L'e-mail n'a pu être envoyé, vérifiez que vous l'avez entré correctement ! Email =  ; 21-07-19 / 21:37:33
