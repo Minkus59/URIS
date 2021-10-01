@@ -3,7 +3,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 $Ovh_serv_bDd = "mysql:host=ingenieuj1.mysql.db;dbname=ingenieuj1";
 $uTil_bDd_serv="ingenieuj1";
-$mDp_bDd_serv="MindUris007";
+$mDp_bDd_serv="XXXXXX";
 
 $Prefix="ULRIS_";
 //$Prefix="BETA_ULRIS_";
